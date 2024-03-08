@@ -1,3 +1,9 @@
+## Demo Website
+
+```
+https://dashboardassignment-umber.vercel.app/
+```
+
 # Dashboard Application
 This project is a dashboard application built using React, Redux, Axios, and TypeScript. It includes features such as user authentication, fetching user data from a dummy API, displaying user information in a table, and enabling user search by name.
 
