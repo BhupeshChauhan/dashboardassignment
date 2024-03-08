@@ -22,7 +22,7 @@ This project is a dashboard application built using React, Redux, Axios, and Typ
 - Clone the repository:
 
 ```
-git clone https://github.com/yourusername/dashboard-app.git
+git clone https://github.com/BhupeshChauhan/dashboardassignment.git
 ```
 
 - Navigate to the project directory:
