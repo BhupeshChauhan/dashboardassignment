@@ -13,6 +13,7 @@ const UserListColumns = () => {
             return <img src={params?.row?.picture?.medium} className="aspect-square w-20" width={50}/>;
           },
           sortable: false,
+          minWidth: 200,
         },
         {
           field: 'name',
@@ -22,6 +23,7 @@ const UserListColumns = () => {
             return <p>{params?.row?.name?.first} {params?.row?.name?.last}</p>;
           },
           sortable: false,
+          minWidth: 200,
         },
         {
           field: 'location',
@@ -31,6 +33,7 @@ const UserListColumns = () => {
             return <p>{params?.row?.location.city}, {params?.row?.location.state}</p>;
           },
           sortable: false,
+          minWidth: 200,
         },
         {
           field: 'email',
@@ -40,12 +43,14 @@ const UserListColumns = () => {
             return <p>{params.row.email}</p>;
           },
           sortable: false,
+          minWidth: 200,
         },
         {
           field: 'phone',
           headerName: "User's Phone",
           flex: 1,
           sortable: false,
+          minWidth: 200,
         },
         {
           field: 'registered',
@@ -55,6 +60,7 @@ const UserListColumns = () => {
             return <>{format(parseISO(params?.row?.registered?.date), 'MMMM dd, yyyy')}</>;
           },
           sortable: false,
+          minWidth: 200,
         },
       ];
     return listColumns

@@ -49,7 +49,7 @@ const Login = ({ type }: loginType) => {
     onSubmit: handleSubmit,
   });
   return (
-    <form onSubmit={formik.handleSubmit} className=' w-[80%] p-10 bg-white rounded-lg shadow-xl'>
+    <form onSubmit={formik.handleSubmit} className=' md:w-[80%] p-10 bg-white rounded-lg shadow-xl'>
       <Stack>
         <Box>
           <h1 className='text-4xl font-gelasio capitalize mt-10 mb-14 text-center'>

@@ -73,7 +73,7 @@ export default function CustomDataGrid({
           {action}
         </Stack>
         <div>
-          <div className="text-md" style={{ height: "60vh", width: "100%" }}>
+          <div className="text-md" style={{ height: "60vh", width: "100%", maxWidth: "75vw" }}>
             <DataGrid
               loading={isloading}
               rows={rows}
