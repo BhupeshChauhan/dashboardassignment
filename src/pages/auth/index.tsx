@@ -19,7 +19,7 @@ const UserAuth = ({ type }: { type: string }) => {
 
   return (
     <AnimationWapper keyValue={type}>
-      <Grid container className="h-cover flex items-center justify-center">
+      <Grid container className="h-cover flex items-center justify-center px-20">
         <Grid item lg={6} xs={12}>
           <Login type={type} />
         </Grid>
